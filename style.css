@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+  
+
+.container {
+    /* background: green; */
+    width: 100%;
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 0.7rem;
+    box-sizing: border-box;
+}
+
+
+/* ! HEADER */
+header {
+    background-color: #3f52ff;
+    color: white;  
+}
+
+.svg1 {
+    position: relative;
+    top: 1rem;
+    
+}
+
+
+nav {
+    min-height: 4rem;
+    box-sizing: border-box;
+    /* background: yellow; */
+    display: flex;
+    padding-bottom: 1.2rem;
+    justify-content: space-between;
+    border-bottom: .7px solid white;
+    align-items: center;
+}
+nav .nav-title {
+    display: inline-block;
+    max-width: 7rem;
+    font-size: 1.2rem;
+}
+
+nav .nav-hotline {
+    /* background-color: red; */
+    font-size: .9rem;
+    font-weight: 400;
+    
+}
+
+ span {
+    font-weight: bold;
+}
+
+
+.jumbotron .mask {
+    width: 75%;
+    min-width: 300px;
+    max-width: 100%;
+    display: block;
+    
+}
+
+.jumbotron-teks a {
+    display: none;
+}
+
+.jumbotron .mask-title {
+    font-size: 25px;
+    margin-top: .5rem;
+    max-width: 100%;
+}
+
+.jumbotron .mask-paragraf {
+    margin-top: .5rem;
+    font-size: 15px;
+}
+
+/*! END OF HEADER  */
+
+/* ! SECTION COVID */
+
+/* * SECTION COVID NAS */
+#covid{
+    padding-top: 3rem;
+    background-color: #f5f5f5;
+}
+
+.title-nas{
+    font-size: 25px;
+    color: #3f52ff;
+}
+
+.hari-nas{
+    font-size: 24px;
+    color: #3f52ff;
+}
+
+.statistikNasional {
+    background-color: #ffffff;
+    border: 2.5px solid #c5c5c5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem 0 auto;
+    overflow: hidden;
+}
+
+.cont {
+    /* background-color: red; */
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 12px;
+    text-align: center;
+}
+
+.title{
+    font-size: 12px;
+}
+
+.death{
+    color: red;
+    border-right: 1px solid #c5c5c5;
+}
+.positive{
+    color: rgb(255, 206, 12);
+    border-right: 1px solid #c5c5c5;
+}
+.recovered{
+    color: rgb(45, 223, 45);
+}
+
+/* * END OF COVID NAS */
+
+/* * COVID PROV */
+
+.cari{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0 auto;
+    cursor: pointer;
+    align-items: center;
+    
+}
+
+.tombol{
+    background-color: #ffffff;
+    border: 1px solid #c5c5c5;
+    border-radius: 10px;
+    padding: .3rem .7rem;
+    margin-left: .5rem;
+    color: #3f52ff;
+}
+
+.tombol:hover{
+    background-color:  #20286e;
+    transition: background-color .5s;
+    color: white;
+    border: 1px solid #20286e;
+}
+.tombol:visited{
+    background-color:  #20286e;
+    transition: background-color .5s;
+    color: white;
+    border: 1px solid #20286e;
+}
+
+select{
+    min-width: 80%;
+    max-width: 100%;
+    padding: .3rem 1rem;
+    background-color: #fff;
+    border: 1px solid #c5c5c5;
+    border-radius: 10px;
+    overflow: auto;
+    font-size: 1rem;
+    color: #3f52ff;
+}
+
+.statistikProvinsi {
+    background-color: #ffffff;
+    border: 2.5px solid #c5c5c5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem 0 auto;
+    overflow: hidden;
+}
+
+.covid-prov{
+    margin-top: 2rem;
+}
+.title-prov{
+    font-size: 25px;
+    color: #3f52ff;
+}
+
+.hari-prov{
+    font-size: 24px;
+    color: #3f52ff;
+}
+
+.svg2{
+    position: relative;
+    top: 1rem;
+}
+
+/* !END OF COVID SECTION */
+
+/* ! FAQ */
+#faq{
+    padding: 3rem 0 7rem 0;
+    background: #3f52ff;
+}
+.title-faq{
+    color: #fff;
+    font-size: 25px;
+}
+
+.ask{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: .1rem .7rem;
+    color: #3f52ff;
+}
+
+.ask:hover{
+    background-color:  #0b2867;
+    transition: background-color .5s;
+    color: white;
+}
+
+
+.ask h1{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.ask .fas {
+    color: #3f52ff;
+    font-size: 20px;
+}
+
+.fas:hover{
+    color: white;
+}
+
+.fa-chevron-circle-down{
+    display: none;
+}
+
+.chevron{
+    background-color: #1c326f;
+    transition: background-color .5s;
+    color: white;
+}
+
+.chevron .fas{
+    color: white;
+}
+
+.chevron .fa-chevron-circle-down{
+    display: block;
+}
+
+.chevron .fa-chevron-circle-up{
+    display: none;
+}
+
+.a1{
+    margin-top: 2rem;
+}
+
+.ans{
+    display: none;
+}
+
+.show{
+    opacity: 0;
+    display: block;
+    margin: .5rem 0 1.5rem 0;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: justify;
+    color: #293c6c ;
+    animation: fadeDown 1s ease forwards;
+    
+}
+
+.a2{
+    margin-top: 1rem;
+}
+
+.a2 ul {
+    margin-left: 2rem;
+}
+
+.a2 ul li {
+    font-weight: bold;
+}
+
+.a3{
+    margin-top: 1rem;
+}
+
+.a4{
+    margin-top: 1rem;
+}
+
+/* ! END OF FAQ */
+
+/* ! FOOTER */
+#footer{
+    padding: 2rem .5rem;
+    background-color: #f5f5f5;
+    color: #3f52ff;
+}
+
+.contributor h1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contributor h2 {
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.contributor .fab {
+    font-size: 20px;
+}
+
+.sosmed{
+    margin-top: .5rem;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contributor .sosmed a {
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    color: #3f52ff;
+}
+
+.contributor .sosmed a:hover{
+    color: #20286e;
+    transition: color .5s ease;
+}
+
+
+.contributor p {
+    margin-top: 4rem;
+}
+/* ! END OF FOOTER */
+
+
+/* ! DESKTOP */
+
+@media screen and (min-width: 900px){
+
+    .container {
+        max-width: 80%;
+        
+    }
+
+    nav .nav-title {
+        font-size: 1.3rem;
+    }
+    
+    nav .nav-hotline {
+        font-size: 1rem;
+    }
+
+    .jumbotron {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .jumbotron .mask {
+        width: 120%;
+    }
+
+    .jumbotron-teks{
+        
+        margin-left: 1rem;
+    }
+
+    .jumbotron .mask-title {
+        font-size: 30px;
+        margin-top: .5rem;
+        max-width: 100%;
+    }
+    
+    .jumbotron .mask-paragraf {
+        margin-top: .5rem;
+        font-size: 17px;
+    }
+
+    .jumbotron-teks a{
+        display: inline-block;
+        margin-top: 1.9rem;
+        list-style: none;
+        text-decoration: none;
+        background-color: #fff;
+        padding: .5rem 1rem;
+        border-radius: 10px;
+    }
+
+    .jumbotron-teks a:hover{
+        background-color: #20286e;
+        transition: background-color .5s ease;
+        color: white;
+    }
+
+    /* ! SECTION COVID */
+    .title-nas {
+        font-size: 30px;
+    }
+
+    .hari-nas{
+        font-size: 29px;
+    }
+
+    .cont {
+        padding: .8rem;
+        font-size: 20px;
+    }
+    .title{
+        font-size: 17px;
+    }
+
+    /* ! COVID PROV */
+    .tombol {
+        padding: .7rem 1rem;
+    }
+    select{
+        width: 100%;
+        padding: .7rem 1rem;
+    }
+
+    .title-prov{
+        font-size: 30px;
+    }
+
+    .hari-prov{
+        font-size: 29px;
+    }
+
+    /* ! FAQ */
+    .title-faq{
+        font-size: 30px;
+    }
+
+    .ask{
+        padding: .5rem 1rem;
+        border-radius: 15px;
+    }
+
+    .show{
+        border-radius: 15px;
+    }
+
+    /* ! FOOTER */
+    .sosmed{
+        
+        width: 7%;
+    }
+
+
+
+}
+
+
+
+@keyframes fadeDown{
+    0%{
+        transform: translateY(-1rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* ! END OF FAQ */
+
+
+

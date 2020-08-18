@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pantau Covid</title>
+		<!--Font awesome CDN-->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+		/>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<!-- ! HEADER NAV -->
+		<header>
+			<div class="container">
+				<nav>
+					<h1 class="nav-title">Pantau Covid-19</h1>
+					<h3 class="nav-hotline">Covid-19 Hotline <span>112</span></h3>
+				</nav>
+				<jumbotron-element class="jumbotron"></jumbotron-element>
+			</div>
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 1440 320"
+				class="svg1"
+			>
+				<path
+					fill="#f5f5f5"
+					fill-opacity="1"
+					d="M0,32L80,74.7C160,117,320,203,480,208C640,213,800,139,960,128C1120,117,1280,171,1360,197.3L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+					class="path1"
+				></path>
+			</svg>
+		</header>
+		<!-- ! END OF HEADER NAV -->
+
+		<!-- ! COVID STATISTIK -->
+		<section class="covid" id="covid">
+			<div class="covid-nas">
+				<div class="container">
+					<h1 class="title-nas">Pantauan Nasional</h1>
+					<h1 class="hari-nas">Hari Ini</h1>
+					<div class="statistikNasional"></div>
+				</div>
+			</div>
+
+			<div class="covid-prov">
+				<div class="container">
+					<h1 class="title-prov">Pantauan Provinsi</h1>
+					<h1 class="hari-prov">Hari Ini</h1>
+					<div class="cari">
+						<select name="select-prov" id="selectProv"></select>
+						<p class="tombol">Cari</p>
+					</div>
+					<div class="statistikProvinsi">
+						<div class="cont death">
+							<h1 class="title">Meninggal</h1>
+							<h1>0</h1>
+						</div>
+						<div class="cont positive">
+							<h1 class="title">Terkonfirmasi</h1>
+							<h1>0</h1>
+						</div>
+						<div class="cont recovered">
+							<h1 class="title">Sembuh</h1>
+							<h1>0</h1>
+						</div>
+					</div>
+				</div>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 1440 320"
+					class="svg2"
+				>
+					<path
+						fill="#3f52ff"
+						fill-opacity="1"
+						d="M0,224L120,202.7C240,181,480,139,720,138.7C960,139,1200,181,1320,202.7L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+					></path>
+				</svg>
+			</div>
+		</section>
+		<!-- ! END OF COVID STATISTIK -->
+
+		<!-- ! INFORMASI SEPUTAR COVID 19 -->
+		<section class="faq" id="faq">
+			<div class="container">
+				<information-title></information-title>
+				<information-covid1></information-covid1>
+				<information-covid2></information-covid2>
+				<information-covid3></information-covid3>
+				<information-covid4></information-covid4>
+			</div>
+		</section>
+		<!-- !END OF INFORMASI SEPUTAR COVID -->
+
+		<!-- ! FOOTER -->
+		<footer class="footer" id="footer">
+			<div class="container">
+				<contributor-element class="contributor"></contributor-element>
+			</div>
+		</footer>
+		<!-- ! END OF FOOTER -->
+
+		<script type="module" src="script.js"></script>
+	</body>
+</html>
